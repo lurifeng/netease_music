@@ -1,0 +1,45 @@
+{
+  "description": "项目配置文件。",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "postcss": true,
+    "minified": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "",
+  "appid": "wx57425a90890d2945",
+  "projectname": "neteaseMusic",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "search": {
+      "list": []
+    },
+    "conversation": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "list",
+          "query": "listId=1849998058",
+          "id": 0,
+          "pathName": "pages/list/list"
+        },
+        {
+          "name": "detail",
+          "query": "songId=1849998058",
+          "id": 1,
+          "pathName": "pages/detail/detail"
+        }
+      ]
+    }
+  }
+}
