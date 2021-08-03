@@ -22,6 +22,14 @@
             }
             
         }
+        ,{
+            "path" : "pages/search/search",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom"
+            }
+            
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
@@ -42,6 +50,12 @@
 				"name": "detail", //模式名称
 				"path": "pages/detail/detail", //启动页面，必选
 				"query": "songId=1849998058" //启动参数，在页面的onLoad函数里面得到
+			},
+			
+			{
+				"name": "search", //模式名称
+				"path": "pages/search/search", //启动页面，必选
+				"query": ""//启动参数，在页面的onLoad函数里面得到
 			}
 		]
 	}

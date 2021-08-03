@@ -13,19 +13,21 @@
   "libVersion": "",
   "appid": "wx57425a90890d2945",
   "projectname": "neteaseMusic",
-  "simulatorType": "wechat",
-  "simulatorPluginLibVersion": {},
   "condition": {
     "search": {
+      "current": -1,
       "list": []
     },
     "conversation": {
+      "current": -1,
       "list": []
     },
     "game": {
+      "current": -1,
       "list": []
     },
     "miniprogram": {
+      "current": 0,
       "list": [
         {
           "name": "list",
@@ -38,6 +40,12 @@
           "query": "songId=1849998058",
           "id": 1,
           "pathName": "pages/detail/detail"
+        },
+        {
+          "name": "search",
+          "query": "",
+          "id": 2,
+          "pathName": "pages/search/search"
         }
       ]
     }
